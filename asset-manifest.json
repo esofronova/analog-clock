@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/analog-clock/static/css/main.cef96a82.chunk.css",
+    "main.js": "/analog-clock/static/js/main.577364f8.chunk.js",
+    "main.js.map": "/analog-clock/static/js/main.577364f8.chunk.js.map",
+    "runtime-main.js": "/analog-clock/static/js/runtime-main.b2883571.js",
+    "runtime-main.js.map": "/analog-clock/static/js/runtime-main.b2883571.js.map",
+    "static/css/2.f2512455.chunk.css": "/analog-clock/static/css/2.f2512455.chunk.css",
+    "static/js/2.149aa35c.chunk.js": "/analog-clock/static/js/2.149aa35c.chunk.js",
+    "static/js/2.149aa35c.chunk.js.map": "/analog-clock/static/js/2.149aa35c.chunk.js.map",
+    "index.html": "/analog-clock/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/analog-clock/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.cef96a82.chunk.css.map": "/analog-clock/static/css/main.cef96a82.chunk.css.map",
+    "static/js/2.149aa35c.chunk.js.LICENSE.txt": "/analog-clock/static/js/2.149aa35c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2883571.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.149aa35c.chunk.js",
+    "static/css/main.cef96a82.chunk.css",
+    "static/js/main.577364f8.chunk.js"
+  ]
+}
