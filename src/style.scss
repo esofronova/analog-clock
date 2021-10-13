@@ -1,0 +1,97 @@
+.clock {
+  height: 400px;
+  width: 400px;
+
+  .center {
+    width: 14px;
+    height: 14px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 10;
+  }
+
+  .diallines span {
+    z-index: 2;
+    width: 2px;
+    height: 15px;
+    background: #666;
+    left: 50%;
+    margin-left: -1px;
+    transform-origin: 50% 196px;
+
+    &:nth-of-type(5n) {
+      width: 4px;
+      height: 25px;
+    }
+  }
+
+  .numbers {
+    span {
+      position: absolute;
+      color: #333;
+      font-size: 40px;
+      font-weight: 700;
+      z-index: 4;
+    }
+
+    .h12 {
+      top: 17px;
+      left: 44%;
+    }
+    .h3 {
+      top: 169px;
+      right: 30px;
+    }
+    .h6 {
+      bottom: 17px;
+      left: 48%;
+    }
+    .h9 {
+      left: 32px;
+      top: 163px;
+    }
+  }
+
+  .hands {
+    span {
+      position: absolute;
+      border-radius: 50% 50% 0 0;
+    }
+
+    .hour {
+      z-index: 5;
+      width: 4px;
+      height: 65px;
+      background: #333;
+      top: 123px;
+      transform-origin: 50% 72px;
+      left: 50%;
+      margin-left: -2px;
+    }
+  
+    .minute {
+      z-index: 6;
+      width: 4px;
+      height: 100px;
+      background: #666;
+      top: 90px;
+      left: 50%;
+      margin-left: -2px;
+      transform-origin: 50% 105px;
+    }
+  
+    .second {
+      z-index: 7;
+      width: 2px;
+      height: 120px;
+      background: gold;
+      top: 70px;
+      left: 50%;
+      margin-left: -1px;
+      transform-origin: 50% 125px;
+    }
+  }
+}
